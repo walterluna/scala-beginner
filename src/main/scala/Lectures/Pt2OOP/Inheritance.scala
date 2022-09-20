@@ -1,6 +1,6 @@
 package Lectures.Pt2OOP
 
-object InheritanceAndTraits extends App {
+object Inheritance extends App {
 
   //  Single class inheritance (you can only extend one class)
   //  private methods can only be called from the parent class
