@@ -10,7 +10,7 @@ object Functions extends App {
 
   def aParamLessFunction(): Int = 42
 
-  println(aParamLessFunction)
+  println(aParamLessFunction())
 
   //  When we need loops, we use recursion
   //  Recursive functions need to explicitly define return types

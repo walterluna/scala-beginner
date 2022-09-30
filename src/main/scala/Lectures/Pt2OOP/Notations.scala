@@ -1,5 +1,6 @@
 package Lectures.Pt2OOP
 
+import scala.annotation.targetName
 import scala.language.postfixOps
 
 object Notations extends App {
@@ -78,7 +79,8 @@ object Notations extends App {
   println(olderRockstar())
 
   println(mary learns "martial arts")
-  println(mary learnsScala)
+  //  println(mary learnsScala)
+  //  ^^ not supported in scala 3 :(
 
   println(mary(5))
 }

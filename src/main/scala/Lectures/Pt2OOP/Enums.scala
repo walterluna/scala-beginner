@@ -2,13 +2,10 @@ package Lectures.Pt2OOP
 
 object Enums extends App {
   println("Enums lecture")
-  // Scala 3 adds support for enums
-  //  But I created the project with scala 2, so all code is commented
 
-  /*
+  // Scala 3 adds support for enums
   enum Permissions {
-    case READ, WRITE
-    , EXECUTE
+    case READ, WRITE, EXECUTE
 
     // Since this is a data type, we can add fields or methods
     def openDocument(): Unit =
@@ -18,12 +15,12 @@ object Enums extends App {
   }
 
   //  we can also define enums with constructor args
-  enum PermissionsWithBits (bits: Int) {
+  enum PermissionsWithBits(bits: Int) {
     case READ extends PermissionsWithBits(4) //100
     case WRITE
-    extends PermissionsWithBits(2) //010
+      extends PermissionsWithBits(2) //010
     case EXECUTE
-    extends PermissionsWithBits(1) //001
+      extends PermissionsWithBits(1) //001
   }
 
   //  we can also create companion objects for enums
@@ -47,5 +44,4 @@ object Enums extends App {
   //  create from string
   val readPermission: Permissions = Permissions.valueOf("READ") //Permissions.RAED
   println(readPermission)
-   */
 }
