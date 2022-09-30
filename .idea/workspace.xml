@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91e02603-ba5b-43ae-9f35-ca451639ee16" name="Changes" comment="Expressions">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Lectures/Pt1Basics/Functions.scala" afterDir="false" />
+    <list default="true" id="91e02603-ba5b-43ae-9f35-ca451639ee16" name="Changes" comment="Generics">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Lectures/Pt2OOP/Enums.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.bsp/sbt.json" beforeDir="false" afterPath="$PROJECT_DIR$/.bsp/sbt.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +22,23 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="scala-beginner" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FormatOnSaveOptions">
     <option name="myRunOnSave" value="true" />
@@ -42,19 +61,99 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/walter/Projects/scala-beginner&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "full.screen.before.presentation.mode": "false",
+    "last_opened_file_path": "/home/walter/Projects/scala-beginner",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "scala_project_settings_configurable.last_selected_tab_index": "0",
+    "settings.editor.selected.configurable": "editor.preferences.folding"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="RunManager" selected="Scala REPL.Scala REPL">
+    <configuration name="AnonymousClasses" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Lectures.Pt2OOP.AnonymousClasses" />
+      <module name="scala-beginner" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lectures.Pt2OOP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CaseClasses" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Lectures.Pt2OOP.CaseClasses" />
+      <module name="scala-beginner" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lectures.Pt2OOP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Generics" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Lectures.Pt2OOP.Generics" />
+      <module name="scala-beginner" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lectures.Pt2OOP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Exercises.ListTest" />
+      <module name="scala-beginner" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scala REPL" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="scala-beginner" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="javaOptions" value="-Djline.terminal=NONE" />
+      <option name="myConsoleArgs" value="" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Scala REPL.Scala REPL" />
+        <item itemvalue="Application.ListTest" />
+        <item itemvalue="Application.CaseClasses" />
+        <item itemvalue="Application.AnonymousClasses" />
+        <item itemvalue="Application.Generics" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -72,12 +171,96 @@
       <option name="project" value="LOCAL" />
       <updated>1662701827156</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Tail recursion">
+      <created>1663045914532</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663045914532</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Call by name vs Call by value">
+      <created>1663047012423</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663047012423</updated>
+    </task>
+    <task id="LOCAL-00004" summary="String Operations">
+      <created>1663116060557</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663116060557</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Object Oriented Basics">
+      <created>1663191921934</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663191921934</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Method notations">
+      <created>1663280486708</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663280486708</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Method notations exercises">
+      <created>1663284094679</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1663284094679</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Objects">
+      <created>1663285382767</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1663285382767</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Inheritance: Exercises">
+      <created>1663728078074</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1663728078074</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Anonymous Classes">
+      <created>1663977841316</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1663977841316</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Expressions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Expressions" />
+    <MESSAGE value="Tail recursion" />
+    <MESSAGE value="Call by name vs Call by value" />
+    <MESSAGE value="String Operations" />
+    <MESSAGE value="Object Oriented Basics" />
+    <MESSAGE value="Method notations" />
+    <MESSAGE value="Method notations exercises" />
+    <MESSAGE value="Objects" />
+    <MESSAGE value="Inheritance: Exercises" />
+    <MESSAGE value="Generics" />
+    <MESSAGE value="Anonymous Classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Anonymous Classes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
