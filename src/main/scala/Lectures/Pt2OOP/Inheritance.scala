@@ -9,12 +9,12 @@ object Inheritance extends App {
   class Animal {
     val creatureType = "wild"
 
-    protected def eat: Unit = println("nomnomnom")
+    protected def eat(): Unit = println("nomnomnom")
   }
 
   class Cat extends Animal {
     def crunch: Unit = {
-      eat
+      eat()
       println("crunch crunch crunch")
     }
   }
@@ -33,7 +33,7 @@ object Inheritance extends App {
     //    override val creatureType: String = "Domestic"
 
     override def eat(): Unit = {
-      super.eat
+      super.eat()
       println("crunch crunch crunch")
     }
   }
