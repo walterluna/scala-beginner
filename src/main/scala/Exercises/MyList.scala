@@ -170,4 +170,11 @@ object ListTest extends App {
   val foldOnTen = listOfIntegersClone.fold(10)
   println(foldOnZero(_ + _))
   println(foldOnTen(_ + _))
+
+  //  for comprehensions
+  val combinations = for {
+    n <- listOfIntegers
+    string <- listOfStrings
+  } yield n + "-" + string
+  println(combinations)
 }
